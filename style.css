@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    left: 0;
+    display: inline;  
+}
+
+.topbackground {
+    background-color:#1f2937;
+}
+
+.navbarlinks {
+    font-size: 18px;
+    color: #e5e7eb;
+    float: right;
+    display: inline ;
+}
