@@ -4,20 +4,95 @@
     padding: 0;
 }
 
+.topSection {
+    padding: 5px 100px;
+    background-color:#1f2937;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .logo {
     font-size: 24px;
     color: #f9faf8;
-    left: 0;
-    display: inline;  
+    margin-right: auto;
 }
 
-.topbackground {
-    background-color:#1f2937;
-}
+
 
 .navbarlinks {
     font-size: 18px;
     color: #e5e7eb;
-    float: right;
-    display: inline ;
+}
+
+.secondSection {
+    padding: 50px 100px;
+    background-color:#1f2937;
+    display: flex;
+}
+
+.introduction{
+    flex-direction: row;
+    flex: 1;
+}
+
+.praise {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    flex-grow: 3;
+}
+
+.elaborate {
+    font-size: 18px;
+    color: #e5e7eb;
+    flex-grow: 2;
+}
+
+.button {
+    background-color: blue; 
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .bigImage {
+    min-width: 300px;
+    min-height: 100px;
+    flex: 1;
+  }
+
+  .center {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    margin: 30px auto;
+    display: block;
+    width: fit-content;
+  }
+
+  .thirdSection {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 100px;
+  }
+
+  .item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 220px;
+}
+.smallImage {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+}
+.caption {
+    display: block;
 }
