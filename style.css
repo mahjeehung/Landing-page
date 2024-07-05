@@ -116,3 +116,35 @@
 .reference {
     align-self: flex-end;
 }
+
+.fifthSection {
+    margin: 100px auto;
+    display: flex;
+}
+
+.innerSection {
+    padding: 50px 100px;
+    margin: auto;
+    display: flex;
+    background-color: blue;
+    gap: 50px;
+}
+
+.callToAction {
+flex-grow: 4;
+font-size: 24px;
+color: white;
+}
+
+.button {
+    background-color: blue; /* Green */
+    border-radius: 10px;
+    border: thick solid white;
+    border-width: thick;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
