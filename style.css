@@ -80,6 +80,7 @@
     justify-content: center;
     gap: 50px;
     padding-bottom: 100px;
+    width:max-content;
   }
 
   .item {
@@ -95,4 +96,23 @@
 }
 .caption {
     display: block;
+}
+
+.fourthSection {
+    padding: 100px;
+    flex-direction: column;
+    display: flex;
+    background-color: #e5e7eb;
+    align-items: center;
+    
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.reference {
+    align-self: flex-end;
 }
